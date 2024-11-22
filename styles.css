@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif; /* Schriftart */
+    line-height: 1.6; /* Zeilenabstand */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Hintergrundfarbe */
+}
+
+h1, h2, h3 {
+    color: #333; /* Überschriftfarben */
+}
+
+p {
+    color: #555; /* Textfarbe für Absätze */
+}
+
+.container {
+    max-width: 1200px; /* Maximale Breite */
+    margin: auto; /* Zentriert den Container */
+    padding: 20px; /* Innenabstand */
+    background: white; /* Hintergrundfarbe für Container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Schatteneffekt */
+}
+
+.button {
+    background-color: #28a745; /* Hintergrundfarbe */
+    color: white; /* Textfarbe */
+    padding: 10px 20px; /* Innenabstand */
+    border: none; /* Keine Rahmen */
+    border-radius: 5px; /* Abgerundete Ecken */
+    cursor: pointer; /* Zeiger beim Überfahren */
+}
+
+.button:hover {
+    background-color: #218838; /* Dunklere Farbe beim Überfahren */
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block; /* Vertikale Anordnung für mobile Ansichten */
+        margin-bottom: 10px; /* Abstand zwischen Navigationselementen */
+    }
+}
